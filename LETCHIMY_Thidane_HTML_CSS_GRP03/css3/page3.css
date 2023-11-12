@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    }
+    
+    
+    header{
+        background-color: darkred;
+        min-height: 20vh;
+        text-align: center;
+    }
+    nav{
+        background-color: gray;
+        height: 15vh;
+        text-align: center;
+    }
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+    }
+    section{
+        width: 50%;
+        min-height: 20vh;
+    }
+    .a{
+        background-color: crimson;
+    }
+    .b{
+        background-color: darkblue;
+    }
+    .c{
+        background-color: brown;
+    }
+    .d{
+        background-color: darkgoldenrod;
+    }
+    footer{
+        background-color: grey;
+        min-height: 15vh;
+    }
+    #logop{
+        height: 10vh;
+    }
+    #logoc{
+        height: 10vh;
+    }
+#logoe{
+    height: 20vh;
+}
+#logos{
+    height: 10vh
+}
+
+@media all and (max-device-width: 480px){
+    body{
+        background-color: white;
+    }
+    p{
+        color: black;
+    }
+    header{
+        background-color: white;
+    }
+    nav{
+        background-color: white;
+    }
+    .a{
+        background-color: white;
+        width: 50vh;
+        height: auto;
+    }
+    .b{
+        background-color: white;
+        width: 50vh;
+        height: auto;
+    }
+    .c{
+        background-color: white;
+        width: 50vh;
+        height: auto;
+    }
+    .d{
+        background-color: white;
+        width: 50vh;
+        height: auto;
+    }
+    #logop{
+        width: 10vh;
+        height: auto;
+    }
+    #logoc{
+        width: 10vh;
+        height: auto;
+    }
+    #logos{
+        width: 10vh;
+        height: auto;
+    }
+footer{
+    background-color: white;
+}
+
+
+}
